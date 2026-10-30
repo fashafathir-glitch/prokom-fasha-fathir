@@ -1,0 +1,21 @@
+items = ["Jakarta", "Bandung", "Surabaya", "Medan", "Makassar"]
+print("Asli:", items)
+print("Elemen pertama:", items[0])
+items[1] = "Yogyakarta"
+print("Setelah ubah elemen:", items)
+items.append("Denpasar")
+print("Setelah append:", items)
+items.insert(1, "Semarang")
+print("Setelah insert:", items)
+del items[0]
+print("Setelah del:", items)
+removed = items.pop()
+print("Pop:", removed, "| daftar:", items)
+items.remove("Surabaya")
+print("Setelah remove:", items)
+print("Sorted:", sorted(items))
+items.sort()
+print("sort:", items)
+items.reverse()
+print("reverse:", items)
+print("Panjang:", len(items))
