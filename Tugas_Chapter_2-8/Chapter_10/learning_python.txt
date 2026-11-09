@@ -1,0 +1,3 @@
+In Python you can store information in variables.
+In Python you can organize data with lists and dictionaries.
+In Python you can repeat actions with loops.
